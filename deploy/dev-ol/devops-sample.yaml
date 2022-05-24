@@ -28,7 +28,7 @@ spec:
               value: js|html
             - name: CACHE_PUBLIC_EXPIRATION
               value: 3d
-          image: docker.io/nuclearwu/devops-sample:SNAPSHOT-1
+          image: docker.io/nuclearwu/devops-java-sample:SNAPSHOT-6
           imagePullPolicy: Always
           name: ks-sample
           ports:
