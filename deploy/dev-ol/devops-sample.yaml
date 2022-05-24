@@ -28,7 +28,7 @@ spec:
               value: js|html
             - name: CACHE_PUBLIC_EXPIRATION
               value: 3d
-          image: $REGISTRY/$DOCKERHUB_NAMESPACE/$APP_NAME:SNAPSHOT-$BUILD_NUMBER
+          image: docker.io/nuclearwu/devops-sample:SNAPSHOT-1
           imagePullPolicy: Always
           name: ks-sample
           ports:
