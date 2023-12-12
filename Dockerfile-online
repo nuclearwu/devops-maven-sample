@@ -1,4 +1,4 @@
-FROM java:openjdk-8-jre-alpine
+FROM cis-hub-huadong-7.cmecloud.cn/nuclearwu/java:openjdk-8-jre-alpine
 
 WORKDIR /home
 
